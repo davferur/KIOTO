@@ -1173,7 +1173,7 @@ return'Gracias por tu mensaje. Para una respuesta más completa, te invito a <a 
 function toggleMobileMenu(){$('mobileMenu').classList.toggle('open')}
 
 /* ═══ ADMIN ═══ */
-function openAdmin(){$('adminOverlay').classList.add('open');$('adminOverlay').style.display='block'}
+function openAdmin(){window.location.href='admin.html'}
 function closeAdmin(){$('adminOverlay').classList.remove('open');$('adminOverlay').style.display='none';$('adminDash').classList.remove('active');$('adminLogin').style.display=''}
 function adminLogin(){
 const doc=$('adminDoc').value.trim();
